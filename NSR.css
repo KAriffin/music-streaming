@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: linear-gradient(to bottom right, #FFB6C1, #90EE90, #87CEFA, #FFD700);;
+    color: linear-gradient(to bottom right, #FFB6C1, #90EE90, #87CEFA, #FFD700);;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #060606;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* New Song Release Interface */
+.new-song-release {
+    background: linear-gradient(to bottom right, #FFB6C1, #90EE90, #87CEFA, #FFD700);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-song-release h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.song-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.song {
+    flex-basis: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.song img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.song img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.song-info {
+    margin-top: 10px;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.song-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.song-info p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .song {
+        flex-basis: 45%;
+    }
+}

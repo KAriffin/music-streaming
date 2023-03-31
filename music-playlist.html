@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Music App</title>
+    <link rel="stylesheet" href="music-playlist.css">
+</head>
+<body>
+    <header>
+        <h1>My Music App</h1>
+        <nav>
+            <ul>
+                <li><a href="music.html">Home</a></li>
+                <li><a href="#">Genres</a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">Albums</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="playlist">
+            <h2>My Playlist</h2>
+            <ul>
+                <li><a href="#">Song 1</a></li>
+                <li><a href="#">Song 2</a></li>
+                <li><a href="#">Song 3</a></li>
+                <li><a href="#">Song 4</a></li>
+            </ul>
+        </section>
+        <section class="player">
+            <div class="album-art">
+                <img src="album-art.jpg" alt="Album Art">
+            </div>
+            <div class="song-info">
+                <h3>Song Title</h3>
+                <p>Artist Name - Album Name</p>
+            </div>
+            <div class="controls">
+                <button class="prev"><i class="fa fa-step-backward"></i></button>
+                <button class="play"><i class="fa fa-play"></i></button>
+                <button class="next"><i class="fa fa-step-forward"></i></button>
+            </div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+        </section>
+    </main>
+    <script src="music.js"></script>
+</body>
+</html>
